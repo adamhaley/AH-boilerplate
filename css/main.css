@@ -1,0 +1,32 @@
+@import 'layout.css';
+
+@import 'fonts.css';
+
+@import 'colors.css';
+/* begin less functions */
+/* end less functions */
+header {
+  border: 1px solid #000000;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+h1 {
+  padding: 1em;
+}
+h1 a {
+  text-decoration: none;
+}
+h2 {
+  padding: 5.25em 0;
+  background-color: #ccc;
+  text-align: center;
+}
+ul#boxes li {
+  padding: 2.5em 0;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}

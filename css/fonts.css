@@ -1,0 +1,13 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+  padding: 5.25em 0;
+}
+ul#boxes li {
+  font-size: 1.33em;
+}
