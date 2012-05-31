@@ -17,27 +17,27 @@ footer,
 div {
   position: relative;
 }
-#maincolumn {
+#contentwrapper {
   position: relative;
   display: inline;
   float: left;
-  width: 72.91666666666666%;
-  margin: 0 1.0416666666666665%;
+  width: 700px;
+  margin: 0 10px;
 }
 #sidebar {
   position: relative;
   display: inline;
   float: left;
-  width: 22.916666666666664%;
-  margin: 0 1.0416666666666665%;
+  width: 220px;
+  margin: 0 10px;
 }
 @media screen and (max-width: 720px) {
-  #maincolumn,
+  #contentwrapper,
   #sidebar {
     display: inline;
     float: left;
-    width: 97.91666666666666%;
-    margin: 0 1.0416666666666665%;
+    width: 940px;
+    margin: 0 10px;
     margin-bottom: 1em;
   }
 }

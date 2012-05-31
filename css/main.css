@@ -1,8 +1,8 @@
-@import 'layout.css';
+@import 'media.css';
 
-@import 'fonts.css';
+@import 'themes/theme0/fonts.css';
 
-@import 'colors.css';
+@import 'themes/theme0/colors.css';
 /* begin less functions */
 /* end less functions */
 header {
@@ -20,11 +20,6 @@ h1 a {
 h2 {
   padding: 5.25em 0;
   background-color: #ccc;
-  text-align: center;
-}
-ul#boxes li {
-  padding: 2.5em 0;
-  background-color: #e5e5e5;
   text-align: center;
 }
 footer {

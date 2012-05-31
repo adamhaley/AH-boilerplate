@@ -1,0 +1,5 @@
+@import 'layouts/fluid-fixed.css';
+@media screen and (max-width: 720px) {
+	@import 'layouts/stacked.css';
+	
+}
