@@ -1,27 +1,63 @@
-@import 'less/functions.less';
-@import 'media.css';
-@import 'themes/theme0/fonts.css';
-@import 'themes/theme0/colors.css';
+@import url(functions.less);
 
-header {
-	.borders();
-	border-left:0px;
-	border-right:0px;
-	border-top:0px;
+body{
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
 }
-h1 {
-	padding: 1em;
-	
+
+b{font-size: 110%;}
+em{color: red;}
+
+#topsection{
+	background: #EAEAEA;
+	height: 90px; /*Height of top section*/
 }
-h1 a {
-	text-decoration: none;
+
+#topsection h1{
+	margin: 0;
+	padding-top: 15px;
 }
-h2 {
-	padding: 5.25em 0;
-	
-	background-color: #ccc;
+
+#contentwrapper{
+	float: left;
+	width: 100%;
+}
+
+#contentcolumn{
+	margin: 0 200px 0 230px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+#leftcolumn{
+	float: left;
+	width: 230px; /*Width of left column*/
+	margin-left: -100%;
+	background: #C8FC98;
+}
+
+#rightcolumn{
+	float: left;
+	width: 200px; /*Width of right column*/
+	margin-left: -200px; /*Set left marginto -(RightColumnWidth)*/	
+	background: #FDE95E;
+}
+
+#footer{
+	clear: left;
+	width: 100%;
+	background: black;
+	color: #FFF;
 	text-align: center;
+	padding: 4px 0;
 }
-footer{
-	text-align:center;
+
+#footer a{
+	color: #FFFF80;
+}
+
+.innertube{
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 0;
 }
