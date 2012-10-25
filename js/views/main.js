@@ -1,5 +1,5 @@
 define('mainView',[],function(){
-	var mainView = Backbone.view.extend({
+	var mainView = Backbone.View.extend({
 
 		el: $('body')
 		, render: function(){

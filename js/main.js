@@ -6,7 +6,8 @@ requirejs.config({
 
     // Defines aliases for common Javascript files/modules
     , paths: {
-		'jquery': 'libs/jquery/jquery.min'
+		'text': 'libs/require/require-text.min'
+		, 'jquery': 'libs/jquery/jquery.min'
 		, 'underscore': 'libs/underscore/underscore'
 		, 'backbone': 'libs/backbone/backbone'
 		, 'mustache': 'libs/mustache/mustache'
