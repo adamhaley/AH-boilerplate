@@ -11,9 +11,11 @@ requirejs.config({
 		, 'backbone': 'libs/backbone/backbone'
 		, 'mustache': 'libs/mustache/mustache'
 		, 'templates': '../templates'	
+		, 'jqtree': 'libs/jqtree/tree.jquery.js'
 		, 'sinon': 'libs/sinon/sinon-1.3.4'
         , 'jasmine': 'libs/jasmine/jasmine'
         , 'jasmineHtml': 'libs/jasmine/jasmine-html'
+        , 'specsRunner': 'tests/specsRunner'
 	}
 	
 	, shim: {
